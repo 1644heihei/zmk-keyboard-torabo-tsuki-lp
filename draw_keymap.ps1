@@ -44,6 +44,31 @@ index_map = {old: new for new, old in enumerate(keep)}
 for layer_name, layer in data["layers"].items():
     data["layers"][layer_name] = [layer[i] for i in keep]
 
+# Replace shifted US-style legends with JIS-style symbol legends for rendering.
+legend_map = {
+    "Sft+1": "!",
+    "Sft+2": "\"",
+    "Sft+3": "#",
+    "Sft+4": "$",
+    "Sft+5": "%",
+    "Sft+6": "&",
+    "Sft+7": "'",
+    "Sft+8": "(",
+    "Sft+9": ")",
+    "Sft+0": "~",
+    "Sft+-": "=",
+    "Sft+\\": "|",
+    "Sft+[": "{",
+    "Sft+]": "}",
+    "Sft+YEN": "|",
+}
+
+for i, key in enumerate(data["layers"].get("2", [])):
+    if isinstance(key, str):
+        data["layers"]["2"][i] = legend_map.get(key, key)
+    elif isinstance(key, dict) and "t" in key:
+        key["t"] = legend_map.get(key["t"], key["t"])
+
 new_combos = []
 for combo in data.get("combos", []):
     pos = combo.get("p", [])

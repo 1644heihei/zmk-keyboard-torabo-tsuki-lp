@@ -163,16 +163,16 @@ layers:
   '2':
   - t: ▽
     type: trans
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - Sft+4
-  - Sft+5
-  - Sft+6
-  - Sft+7
-  - Sft+8
-  - Sft+9
-  - Sft+0
+  - '!'
+  - '"'
+  - '#'
+  - $
+  - '%'
+  - '&'
+  - ''''
+  - (
+  - )
+  - '~'
   - t: ▽
     type: trans
   - t: ▽
@@ -200,11 +200,11 @@ layers:
     type: trans
   - t: ▽
     type: trans
-  - Sft+-
-  - Sft+0
-  - Sft+[
-  - Sft+]
-  - Sft+YEN
+  - '='
+  - ^
+  - \
+  - _
+  - '|'
   - t: ▽
     type: trans
   - t: ▽

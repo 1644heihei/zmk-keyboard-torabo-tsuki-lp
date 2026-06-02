@@ -15,14 +15,15 @@
 #define JP_RPAREN       LS(N9)            // )
 #define JP_TILDE        LS(N0)            // ~
 #define JP_EQUAL        LS(MINUS)         // =
+#define JP_CARET        CARET             // ^
 #define JP_AT           AT_SIGN           // @
 #define JP_LBRACKET     LEFT_BRACKET      // [
 #define JP_RBRACKET     RIGHT_BRACKET     // ]
 #define JP_SEMICOLON    SEMICOLON         // ;
 #define JP_COLON        COLON             // :
-#define JP_LBRACE       LS(LEFT_BRACKET)  // {
-#define JP_RBRACE       LS(RIGHT_BRACKET) // }
-#define JP_PIPE         LS(BACKSLASH)     // |
+#define JP_BACKSLASH    NON_US_BACKSLASH  // \
+#define JP_UNDERSCORE   UNDER             // _
+#define JP_PIPE         LS(NON_US_BACKSLASH) // |
 
 / {
     combos {
@@ -63,7 +64,7 @@
 &trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans         &trans            &trans             &trans         &trans
  &trans  &kp JP_EXCLAMATION  &kp JP_DQUOTE  &kp JP_HASH  &kp JP_DOLLAR  &kp JP_PERCENT              &kp JP_AMPERSAND  &kp JP_QUOTE  &kp JP_LPAREN  &kp JP_RPAREN  &kp JP_TILDE  &trans
  &trans  &kp N1              &kp N2         &kp N3       &kp N4          &kp N5          &trans  &trans  &kp JP_AT      &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_SEMICOLON  &kp JP_COLON  &trans
- &trans  &kp N6              &kp N7         &kp N8       &kp N9          &kp N0          &trans  &trans  &kp JP_EQUAL   &kp JP_TILDE     &kp JP_LBRACE    &kp JP_RBRACE     &kp JP_PIPE   &trans
+ &trans  &kp N6              &kp N7         &kp N8       &kp N9          &kp N0          &trans  &trans  &kp JP_EQUAL   &kp JP_CARET     &kp JP_BACKSLASH &kp JP_UNDERSCORE &kp JP_PIPE   &trans
 &trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB         &kp DEL        &trans            &trans             &trans         &trans
             >;
         };

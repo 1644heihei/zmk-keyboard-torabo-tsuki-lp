@@ -182,10 +182,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+-
-  - Sft+0
-  - Sft+[
-  - Sft+]
-  - Sft+YEN
+  - ^
+  - \
+  - _
+  - Sft+\
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
