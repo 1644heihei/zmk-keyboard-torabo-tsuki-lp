@@ -153,11 +153,11 @@ layers:
   - Sft+3
   - Sft+4
   - Sft+5
-  - Sft+6
-  - Sft+7
-  - Sft+8
-  - Sft+9
-  - Sft+0
+  - $
+  - ''''
+  - (
+  - )
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -181,11 +181,11 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+-
-  - Sft+=
+  - '='
+  - +
   - '['
   - ']'
-  - \
+  - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
