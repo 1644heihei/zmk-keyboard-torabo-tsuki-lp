@@ -162,14 +162,14 @@ parse_config:
     FSLH: /
     QUESTION: '?'
     QMARK: '?'
-    BACKSLASH: \
-    BSLH: \
+    BACKSLASH: YEN
+    BSLH: YEN
     PIPE: '|'
-    NON_US_BACKSLASH: \
+    NON_US_BACKSLASH: YEN
     PIPE2: '|'
-    NON_US_BSLH: \
-    NUBS: \
-    INT1: \
+    NON_US_BSLH: YEN
+    NUBS: YEN
+    INT1: YEN
     SEMICOLON: ;
     SEMI: ;
     COLON: ':'
