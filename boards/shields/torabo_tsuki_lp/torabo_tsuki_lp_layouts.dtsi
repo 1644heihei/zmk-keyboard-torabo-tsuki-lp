@@ -2,7 +2,6 @@
 
 / {
     physical_layout_s: physical_layout_0 {
-        compatible = "zmk,physical-layout";
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   60       0     0     0>
             , <&key_physical_attrs 100 100  100   25       0     0     0>
@@ -52,7 +51,6 @@
     };
 
     physical_layout_m: physical_layout_1 {
-        compatible = "zmk,physical-layout";
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   60       0     0     0>
             , <&key_physical_attrs 100 100  100   60       0     0     0>
@@ -110,7 +108,6 @@
     };
 
     physical_layout_l: physical_layout_2 {
-        compatible = "zmk,physical-layout";
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   60       0     0     0>
             , <&key_physical_attrs 100 100  100   60       0     0     0>
