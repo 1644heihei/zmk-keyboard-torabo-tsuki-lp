@@ -41,7 +41,7 @@
         layer_2 {
             bindings = <
 &trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans         &trans            &trans             &trans         &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp DOLLAR      &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE  &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N4)      &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE  &trans
 &trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans  &trans  &kp UNDERSCORE  &kp MINUS      &kp LEFT_BRACE       &kp RIGHT_BRACE       &kp COLON  &trans
 &trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp EQUAL       &kp PLUS       &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp QUESTION  &trans
 &trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB         &kp DEL        &trans            &trans             &trans         &trans
